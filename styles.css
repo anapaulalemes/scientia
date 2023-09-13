@@ -170,11 +170,19 @@ body{
 @media screen and (max-width: 768px) {
     .container {
         display: block;
-        background-image: none;
+        /* background-image: none; */
     }
 
     .container__imagem {
         width: 50vw;
+        
+    }
+
+    .imagem__principal {
+        height: 0px;
+        align-items:flex-end;
+        padding: 50px;
+        margin: 0 0 30em 12em;
     }
 
     .container__caixa {
